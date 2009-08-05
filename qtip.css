@@ -1,0 +1,24 @@
+div#qTip {
+ display: none;
+/* background: transparent url(tip.png) no-repeat scroll top 10px;*/
+ font: bold 9px Verdana, Arial, sans-serif;
+ text-align: left;
+ position: absolute;
+
+}
+
+div#qTip img{ 
+  outline:none;
+  background:transparent;
+  z-index:-1; 
+  padding-left:10px;
+}
+
+div#qTip p{
+ background-color:#323232;
+/* border:1px solid #323232;*/
+ color: #FFF;
+ padding: 5px;
+ margin-top:-2px;
+ z-index: 10000;
+}
