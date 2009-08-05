@@ -14,13 +14,12 @@ Otherwise you can download it manually from the repository.
 1. cd into your javascript directory (if you have one)
 2. run: git clone git://github.com/vanntastic/qtip.git
 3. add the following to your page:
-          
+
      <link rel="stylesheet" href="qtip/qtip.css" type="text/css" media="screen">
      <script type="text/javascript" src="qtip/qtip.js"></script> 
-          
+
 4. then add this right below it:
     
- 
      <script type="text/javascript" charset="utf-8">
        // this defaults to creating tooltips for a,label,input,img elements
        create_tooltips();
