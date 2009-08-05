@@ -13,10 +13,11 @@ Otherwise you can download it manually from the repository.
 # run: git clone git://github.com/vanntastic/qtip.git
 # add the following to your page:
 
-bc.. 
+<pre>
      <link rel="stylesheet" href="qtip/qtip.css" type="text/css" media="screen">
      <script type="text/javascript" src="qtip/qtip.js"></script> 
      <!-- add any of the below which appeals to you -->
+</pre>     
      
 bc.. 
      <script type="text/javascript" charset="utf-8">
