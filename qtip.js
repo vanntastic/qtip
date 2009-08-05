@@ -7,7 +7,7 @@
 // Inspired by code from Travis Beckham
 // http://www.squidfingers.com | http://www.podlob.com
 //
-// Slight (facebook) modifications + expression and jquery and prototype support by Vann Ek
+// Slight (facebook) modifications + css expression and jquery and prototype support by Vann Ek
 // http://innerfusion.net
 // 
 // Copyright (c) 2006 Craig Erskine
