@@ -1,51 +1,48 @@
-Qtip
-====
+h1. Qtip
 
 Qtip is a tooltip javascript library which does one thing... make (facebook-like) tooltips! This library can be used without a javascript library, but you get the benefits of *css expressions* if you want to use a javascript library (well actually only prototype and jquery for now). So even though it does something as simple as tooltips, it doesn't lock you into a javascript library, but one of the features cannot be used (well maybe they could, but I got lazy... so feel free to fork and make changes if you want to). This is based on the work of Craig Erskine over at http://qrayg.com/, actually most of the original code is his, I just made slight modifications so that it'd be easier to use (for me) and give it a facebook tooltip like appearance if you don't feel like digging into the source.
 
 Original Source : http://qrayg.com/learn/code/qtip/
 
-Installation and basic usage
-============================
+h1. Installation and basic usage
 
 It's (highly) preferable that you use git, so go ahead and get git if you don't have it. 
 Otherwise you can download it manually from the repository.
 
-1. cd into your javascript directory (if you have one)
-2. run: git clone git://github.com/vanntastic/qtip.git
-3. add the following to your page:
+# cd into your javascript directory (if you have one)
+# run: git clone git://github.com/vanntastic/qtip.git
+# add the following to your page:
 
-<link rel="stylesheet" href="qtip/qtip.css" type="text/css" media="screen">
-<script type="text/javascript" src="qtip/qtip.js"></script> 
+bc.. <link rel="stylesheet" href="qtip/qtip.css" type="text/css" media="screen">
+     <script type="text/javascript" src="qtip/qtip.js"></script> 
 
-4. then add this right below it:
-    
-<script type="text/javascript" charset="utf-8">
-   // this defaults to creating tooltips for a,label,input,img elements
-   create_tooltips();
-</script>
+# then add this right below it:
+
+bc.. <script type="text/javascript" charset="utf-8">
+         // this defaults to creating tooltips for a,label,input,img elements
+         create_tooltips();
+     </script>
       
-<script type="text/javascript" charset="utf-8">
-   // will only create tooltips on a and img elements
-   create_tooltips('a,img');
-</script>
+bc.. <script type="text/javascript" charset="utf-8">
+         // will only create tooltips on a and img elements
+         create_tooltips('a,img');
+     </script>
       
-<script type="text/javascript" charset="utf-8">
-   //If you want to pass in css expressions, you have to be using either **prototype** or 
-   //**jquery**, you can check an example in the index.html file included which uses the 
-   //google ajax libraries api, so you don't have to download them to try it out.
-   // will only create tooltips on a elements with the 'tip' class and img elements
-   create_tooltips('a.tip,img');
-</script>
+bc.. <script type="text/javascript" charset="utf-8">
+       //If you want to pass in css expressions, you have to be using either **prototype** or 
+       //**jquery**, you can check an example in the index.html file included which uses the 
+       //google ajax libraries api, so you don't have to download them to try it out.
+       // will only create tooltips on a elements with the 'tip' class and img elements
+       create_tooltips('a.tip,img');
+     </script>
           
-Usage
-=====
+h1. Usage
 
-create_tooltips(elems,x,y)  
---------------------------
+h2. create_tooltips(elems,x,y)  
+
 Initializes the tooltips.
 
-**Arguments:**
+*Arguments:*
 
 - elems : a comma delimited list of elements that you want the tooltips to appear on, this
   defaults to a,label,input,img
