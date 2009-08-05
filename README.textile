@@ -14,27 +14,20 @@ Otherwise you can download it manually from the repository.
 # add the following to your page:
 
 bc.. 
-
      <link rel="stylesheet" href="qtip/qtip.css" type="text/css" media="screen">
      <script type="text/javascript" src="qtip/qtip.js"></script> 
      <!-- add any of the below which appeals to you -->
-     
 bc.. 
-
      <script type="text/javascript" charset="utf-8">
          // this defaults to creating tooltips for a,label,input,img elements
          create_tooltips();
      </script>
-      
 bc.. 
-
      <script type="text/javascript" charset="utf-8">
          // will only create tooltips on a and img elements
          create_tooltips('a,img');
      </script>
-      
 bc.. 
-
      <script type="text/javascript" charset="utf-8">
        //If you want to pass in css expressions, you have to be using either **prototype** or 
        //**jquery**, you can check an example in the index.html file included which uses the 
