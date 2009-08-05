@@ -20,24 +20,24 @@ Otherwise you can download it manually from the repository.
           
 4. then add this right below it:
     
-     Default configuration:
+ Default configuration:
      
      <script type="text/javascript" charset="utf-8">
        // this defaults to creating tooltips for a,label,input,img elements
        create_tooltips();
      </script>
           
-     If you want to specify certain elements to only have tooltips, you can pass a comma
-     delimited list of elements:
+If you want to specify certain elements to only have tooltips, you can pass a comma
+delimited list of elements:
        
      <script type="text/javascript" charset="utf-8">
        // will only create tooltips on a and img elements
        create_tooltips('a,img');
      </script>
           
-     If you want to pass in css expressions, you have to be using either **prototype** or 
-     **jquery**, you can check an example in the index.html file included which uses the google 
-     ajax libraries api, so you don't have to download them to try it out.
+If you want to pass in css expressions, you have to be using either **prototype** or 
+**jquery**, you can check an example in the index.html file included which uses the google 
+ajax libraries api, so you don't have to download them to try it out.
        
      <script type="text/javascript" charset="utf-8">
        // will only create tooltips on a elements with the 'tip' class and img elements
