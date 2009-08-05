@@ -15,8 +15,8 @@ Otherwise you can download it manually from the repository.
 
 1. cd into your javascript directory (if you have one)
 2. run: 
-
-       git clone git://github.com/vanntastic/qtip.git 
+      
+      git clone git://github.com/vanntastic/qtip.git 
        
 3. add the following to your page:
           
