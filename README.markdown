@@ -49,10 +49,9 @@ Usage
 
 create_tooltips(elems,x,y)  
 --------------------------
-
 Initializes the tooltips.
 
-Arguments:
+**Arguments:**
 
   - elems : a comma delimited list of elements that you want the tooltips to appear on, this
     defaults to a,label,input,img
