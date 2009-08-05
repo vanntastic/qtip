@@ -17,16 +17,19 @@ bc..
      <link rel="stylesheet" href="qtip/qtip.css" type="text/css" media="screen">
      <script type="text/javascript" src="qtip/qtip.js"></script> 
      <!-- add any of the below which appeals to you -->
+     
 bc.. 
      <script type="text/javascript" charset="utf-8">
          // this defaults to creating tooltips for a,label,input,img elements
          create_tooltips();
      </script>
+     
 bc.. 
      <script type="text/javascript" charset="utf-8">
          // will only create tooltips on a and img elements
          create_tooltips('a,img');
      </script>
+     
 bc.. 
      <script type="text/javascript" charset="utf-8">
        //If you want to pass in css expressions, you have to be using either **prototype** or 
