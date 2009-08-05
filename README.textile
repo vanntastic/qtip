@@ -9,21 +9,21 @@ h1. Installation and basic usage
 It's (highly) preferable that you use git, so go ahead and get git if you don't have it. 
 Otherwise you can download it manually from the repository.
 
-# cd into your javascript directory (if you have one)
-# run: 
+1. cd into your javascript directory (if you have one)
+2. run: 
 
 <pre>
   git clone git://github.com/vanntastic/qtip.git
 </pre>
 
-# add the following to your page:
+3. add the following to your page:
 
 <pre>
    <link rel="stylesheet" href="qtip/qtip.css" type="text/css" media="screen">
    <script type="text/javascript" src="qtip/qtip.js"></script> 
 </pre>     
 
-# then add any of the following which appeals to you:
+4. then add any of the following which appeals to you:
      
 <pre>
    <script type="text/javascript" charset="utf-8">
