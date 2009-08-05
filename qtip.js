@@ -19,7 +19,6 @@
 // Free Documentation License".
 
 function create_tooltips (elems, x, y) {
-  // CONTINUE here : write the readme and docs
   var qTipTag = !elems ? "a,label,input,img" : elems; //Which tag do you want to qTip-ize? Keep it lowercase!//
   var qTipX = !x ? -25 : x; //This is qTip's X offset//
   var qTipY = !y ? 15 : y; //This is qTip's Y offset//
