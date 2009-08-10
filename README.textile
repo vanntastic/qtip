@@ -51,7 +51,7 @@ Otherwise you can download it manually from the repository.
           
 h1. Usage
 
-h2. create_tooltips(elems,x,y)  
+h2. create_tooltips(elems,dir,x,y)  
 
 Initializes the tooltips.
 
@@ -59,6 +59,8 @@ Initializes the tooltips.
 
 - elems : a comma delimited list of elements that you want the tooltips to appear on, this
   defaults to a,label,input,img
+- dir : the directory where the qtip library is located, defaults to "/qtip", change this
+  if you have it somewhere else
 - x : the x offset of the tooltip, note that the default is set specifically so that the 
   tooltip aligns properly, but adjust it here if you want to make major modifications
 - y : the y offset of the tooltip, note that the default is set specifically so that the 

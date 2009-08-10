@@ -18,10 +18,11 @@
 // A copy of the license is included in the section entitled "GNU
 // Free Documentation License".
 
-function create_tooltips (elems, x, y) {
+function create_tooltips (elems, dir, x, y) {
   var qTipTag = !elems ? "a,label,input,img" : elems; //Which tag do you want to qTip-ize? Keep it lowercase!//
   var qTipX = !x ? -25 : x; //This is qTip's X offset//
   var qTipY = !y ? 15 : y; //This is qTip's Y offset//
+  var dir = !dir ? "/qtip" : dir;
 
   //There's No need to edit anything below this line//
   tooltip = {
@@ -106,7 +107,8 @@ function create_tooltips (elems, x, y) {
 
   tooltip.show = function (text) {
   	if (!this.tip) return;
-  	this.tip.innerHTML = "<img src='tip.gif' />";
+  	var image_path = dir + "/tip.gif";
+  	this.tip.innerHTML = "<img src='" + image_path + "' />";
   	this.tip.innerHTML += "<p align='center'>" +  text + "</p>";
   	this.tip.style.display = "block";
   }
